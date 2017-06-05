@@ -11,10 +11,12 @@ import UIKit
 class ViewController: UIViewController {
     
     
+    @IBOutlet weak var result: UILabel!
+    
     
     
     @IBAction func numberButtonPressed(_ sender: UIButton) {
-    
+    result.text = result.text! + String(sender.tag-1)
     
     }
     

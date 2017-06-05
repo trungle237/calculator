@@ -301,6 +301,7 @@
 				90F1444B1EE5053900C41501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
