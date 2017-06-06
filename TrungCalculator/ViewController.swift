@@ -11,18 +11,23 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    @IBOutlet weak var result: UILabel!
+    @IBOutlet weak var resultLabel: UILabel!
     
-    
-    
-    @IBAction func numberButtonPressed(_ sender: UIButton) {
-    result.text = result.text! + String(sender.tag-1)
-    
+    @IBAction func clickEquals(_ sender: UIButton) {
+        if let result = Parser<Fraction>.evaluate(resultLabel.text!) {
+            resultLabel.text = resultLabel.text! + " = " + result.description //resultLabel.text! +
+        }
+        else {
+            resultLabel.text = "Error"
+        }
     }
+    
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        resultLabel.text = "2/3+3/2"
         // Do any additional setup after loading the view, typically from a nib.
     }
 

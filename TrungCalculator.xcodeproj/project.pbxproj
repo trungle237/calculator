@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90EF28D91EE56A28006013D7 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF28D71EE56A28006013D7 /* Parser.swift */; };
+		90EF28DA1EE56A28006013D7 /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF28D81EE56A28006013D7 /* Fraction.swift */; };
 		90F1443B1EE5053900C41501 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F1443A1EE5053900C41501 /* AppDelegate.swift */; };
 		90F1443D1EE5053900C41501 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F1443C1EE5053900C41501 /* ViewController.swift */; };
 		90F144401EE5053900C41501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F1443E1EE5053900C41501 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90EF28D71EE56A28006013D7 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		90EF28D81EE56A28006013D7 /* Fraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fraction.swift; sourceTree = "<group>"; };
 		90F144371EE5053900C41501 /* TrungCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrungCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F1443A1EE5053900C41501 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90F1443C1EE5053900C41501 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		90F144391EE5053900C41501 /* TrungCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				90EF28D71EE56A28006013D7 /* Parser.swift */,
+				90EF28D81EE56A28006013D7 /* Fraction.swift */,
 				90F1443A1EE5053900C41501 /* AppDelegate.swift */,
 				90F1443C1EE5053900C41501 /* ViewController.swift */,
 				90F1443E1EE5053900C41501 /* Main.storyboard */,
@@ -138,6 +144,8 @@
 			files = (
 				90F1443D1EE5053900C41501 /* ViewController.swift in Sources */,
 				90F1443B1EE5053900C41501 /* AppDelegate.swift in Sources */,
+				90EF28D91EE56A28006013D7 /* Parser.swift in Sources */,
+				90EF28DA1EE56A28006013D7 /* Fraction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
